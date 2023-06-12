@@ -1,9 +1,9 @@
 package Task.Bank;
-public class Account {
+public abstract class Account {
 
-    public void Withdraw(double amount) {    }
-    public void Deposit(double amount) {    }
-    public void printBalance() {    }
+    public abstract void Withdraw(double amount);
+    public abstract void Deposit(double amount);
+    public abstract void printBalance();
 
     public static void main(String[] args) {
 

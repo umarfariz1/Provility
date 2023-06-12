@@ -5,19 +5,12 @@ public class Savings extends Account {
     double amount;
     double interestRate = 0.8;
 
-    public Savings() {
-    }//Default Constructor
-
-
-
-
     public Savings(double balance) {
         this.balance = balance;
     }
 
     @Override//Deposit method is overridden from Account class
     public void Deposit(double amount) {
-
 
         balance = balance + amount + (amount * interestRate);
     }
