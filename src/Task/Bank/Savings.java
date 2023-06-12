@@ -3,12 +3,13 @@ package Task.Bank;
 public class Savings extends Account {
     double balance;
     double amount;
+    double interestRate = 0.8;
 
     public Savings() {
     }//Default Constructor
 
-    Account obj = new Account();
-    double interestRate = obj.getInterestRate();//Private variable interest rate is called using getter method
+
+
 
     public Savings(double balance) {
         this.balance = balance;

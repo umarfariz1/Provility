@@ -1,10 +1,6 @@
 package Task.Bank;
 public class Account {
-    private double interestRate =0.8;
-    public double getInterestRate()
-    {
-       return this.interestRate;
-    }
+
     public void Withdraw(double amount) {    }
     public void Deposit(double amount) {    }
     public void printBalance() {    }
