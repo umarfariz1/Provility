@@ -1,10 +1,9 @@
 package Task.Bank;
 public abstract class Account {
-
+    protected double balance;
     public abstract void Withdraw(double amount);
     public abstract void Deposit(double amount);
     public abstract void printBalance();
-
     public static void main(String[] args) {
 
         //Creating object for Savings class

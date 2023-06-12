@@ -1,7 +1,7 @@
 package Task.Bank;
 
 public class Current extends Account {
-double balance;
+
 double amount;
 
     public Current(double balance)//constructor for Current class is created and parameters are assigned

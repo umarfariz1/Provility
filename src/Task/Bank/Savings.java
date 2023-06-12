@@ -1,7 +1,7 @@
 package Task.Bank;
 
 public class Savings extends Account {
-    double balance;
+
     double amount;
     double interestRate = 0.8;
 
