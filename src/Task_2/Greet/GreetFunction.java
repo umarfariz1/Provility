@@ -1,6 +1,8 @@
-package Task_2.Expression.Greet_Function;
+package Task_2.Greet;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
 
 public class GreetFunction {
     String name;
